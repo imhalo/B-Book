@@ -4,7 +4,13 @@
  * @flow
  */
 
-import React, {
+import React, {AppRegistry} from 'react-native';
+
+import BBook from './src';
+
+AppRegistry.registerComponent('BBook', () => BBook);
+
+/*import React, {
   AppRegistry,
   Component,
   StyleSheet,
@@ -50,4 +56,4 @@ const styles = StyleSheet.create({
   },
 });
 
-AppRegistry.registerComponent('BBook', () => BBook);
+AppRegistry.registerComponent('BBook', () => BBook);*/
